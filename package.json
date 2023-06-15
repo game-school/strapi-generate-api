@@ -10,7 +10,7 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "pluralize": "^8.0.0",
-    "strapi-utils": "github:game-school/strapi-utils"
+    "strapi-utils": "ssh://git@github.com/game-school/strapi-utils.git"
   },
   "scripts": {
     "test": "echo \"no tests yet\""
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/game-school/strapi-generate-api.git"
+    "url": "git+ssh://git@github.com/game-school/strapi-generate-api.git"
   }
 }
